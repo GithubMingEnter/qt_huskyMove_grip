@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     ** Qt
     **********************/
     QApplication app(argc, argv);
-    class1_ros_qt_demo::MainWindow w(argc,argv);
+    class1_ros_qt_demo::MainWindow w(argc,argv);//note 變化
     w.show();
     app.connect(&app, SIGNAL(lastWindowClosed()), &app, SLOT(quit()));
     int result = app.exec();

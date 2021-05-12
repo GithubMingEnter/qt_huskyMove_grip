@@ -68,7 +68,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(&qnode,SIGNAL(image_vel(QImage)),this,SLOT(slot_update_image(QImage)));
     connect(ui.displayBtn,SIGNAL(clicked()),this,SLOT(solt_subImage()));
 
-    //init ui
+    //init ui dashBoard
     speedX_dashBoard=new CCtrlDashBoard(ui.widget_speedX);
     speedY_dashBoard=new CCtrlDashBoard(ui.widget_speedY);
 
@@ -86,7 +86,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 }
 void MainWindow::slot_updat_dashboard(float x,float y)
 {
-    ui.label_dirx->setText(x>0?"+":"-");
+    ui.label_dirx->setText(x>0?"+f":"-");
     ui.label_diry->setText(y>0?"+":"-");
     speedX_dashBoard->setValue(abs(x*100));
     speedY_dashBoard->setValue(abs(y*100));
