@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ming/ur_ws/devel/include/**",
+        "/home/ming/turtlebot_ws/devel/include/**",
+        "/home/ming/rosWs/devel/include/**",
+        "/home/ming/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ming/catkin_qt/src/class1_ros_qt_demo/include/**",
+        "/home/ming/turtlebot_ws/src/depthimage_to_laserscan/include/**",
+        "/home/ming/hw/src/grid_path_searcher/include/**",
+        "/home/ming/vsTest/src/helloworld/include/**",
+        "/home/ming/rosWs/src/homework/include/**",
+        "/home/ming/rosWs/src/husky_robot/husky_base/include/**",
+        "/home/ming/catkin_ws/src/iai_kinect2/kinect2_bridge/include/**",
+        "/home/ming/catkin_ws/src/iai_kinect2/kinect2_calibration/include/**",
+        "/home/ming/catkin_ws/src/iai_kinect2/kinect2_registration/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki/kobuki_auto_docking/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki_bumper2pc/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki/kobuki_controller_tutorial/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki_desktop/kobuki_gazebo_plugins/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki_keyop/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki_node/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki/kobuki_random_walker/include/**",
+        "/home/ming/turtlebot_ws/src/kobuki_safety_controller/include/**",
+        "/home/ming/catkin_ws/src/learning/include/**",
+        "/home/ming/catkin_ws/src/learning_tf/include/**",
+        "/home/ming/rosWs/src/mbot_bringup/include/**",
+        "/home/ming/rosWs/src/mpc_autonav/include/**",
+        "/home/ming/catkin_qt/src/robot_hmi/include/**",
+        "/home/ming/turtlebot_ws/src/robot_pose_ekf/include/**",
+        "/home/ming/catkin_ws/src/robot_voice/include/**",
+        "/home/ming/catkin_ws/src/rrt_star_global_planner/include/**",
+        "/home/ming/turtlebot_ws/src/turtlebot_apps/turtlebot_actions/include/**",
+        "/home/ming/ur_ws/src/universal_robot/ur_kinematics/include/**",
+        "/home/ming/turtlebot_ws/src/yocs_cmd_vel_mux/include/**",
+        "/home/ming/turtlebot_ws/src/yocs_controllers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
