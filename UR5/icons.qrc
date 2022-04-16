@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icons/add.ico</file>
+        <file>icons/base.png</file>
+        <file>icons/dec.ico</file>
+        <file>icons/home.ico</file>
+        <file>icons/pitch_down.ico</file>
+        <file>icons/pitch_up.ico</file>
+        <file>icons/roll_anticlockwise.ico</file>
+        <file>icons/roll_clockwise.ico</file>
+        <file>icons/rotate_left.ico</file>
+        <file>icons/rotate_right.ico</file>
+        <file>icons/stop.ico</file>
+        <file>icons/z_back.ico</file>
+        <file>icons/z_down.ico</file>
+        <file>icons/z_front.ico</file>
+        <file>icons/z_left.ico</file>
+        <file>icons/z_right.ico</file>
+        <file>icons/z_up.ico</file>
+        <file>icons/explain.ico</file>
+        <file>icons/urArm.ico</file>
+        <file>icons/UR.png</file>
+    </qresource>
+</RCC>

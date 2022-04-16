@@ -122,7 +122,7 @@ void MainWindow::slot_triggerGrisp()
 
 void MainWindow::slot_getSdata()
 {
-    QByteArray buf_data;            //接收数据，qByteArray是最常用的类
+    QByteArray buf_data;            //接收数据，
     QString strGripD;
 
     buf_data = myCom->readAll();    //接收数据
@@ -158,7 +158,7 @@ void MainWindow::slot_gripP()
 void MainWindow::slot_UR5()
 {
     Ur5=new QProcess;
-    QString prog="/home/ming/桌面/Ur5Release/UR5";
+    QString prog="~/qt_ros/src/UR5/ur5Linux/UR5";//absoluted path
     Ur5->start(prog);
 }
 
