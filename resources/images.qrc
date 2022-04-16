@@ -1,5 +1,76 @@
 <RCC>
-    <qresource prefix="/" >
+    <qresource prefix="/">
         <file>images/icon.png</file>
+        <file>images/down.png</file>
+        <file>images/down_2.png</file>
+        <file>images/down_left.png</file>
+        <file>images/down_left_2.png</file>
+        <file>images/down_right.png</file>
+        <file>images/down_right_2.png</file>
+        <file>images/error.png</file>
+        <file>images/failed_display.png</file>
+        <file>images/false.png</file>
+        <file>images/forbidden.svg</file>
+        <file>images/get_pos.png</file>
+        <file>images/grid.png</file>
+        <file>images/hide.png</file>
+        <file>images/images.qrc</file>
+        <file>images/left.png</file>
+        <file>images/left_2.png</file>
+        <file>images/left_dock.svg</file>
+        <file>images/line.png</file>
+        <file>images/max.png</file>
+        <file>images/menu.svg</file>
+        <file>images/min.png</file>
+        <file>images/minus.png</file>
+        <file>images/move1d.svg</file>
+        <file>images/move2d.svg</file>
+        <file>images/moverotate.svg</file>
+        <file>images/move_z.svg</file>
+        <file>images/Navigate.png</file>
+        <file>images/offline.png</file>
+        <file>images/ok.png</file>
+        <file>images/online.png</file>
+        <file>images/options.png</file>
+        <file>images/package.png</file>
+        <file>images/plus.png</file>
+        <file>images/power.png</file>
+        <file>images/power-v.png</file>
+        <file>images/refreash.png</file>
+        <file>images/return.png</file>
+        <file>images/right.png</file>
+        <file>images/right_2.png</file>
+        <file>images/right_dock.svg</file>
+        <file>images/robot.png</file>
+        <file>images/robot2.png</file>
+        <file>images/rotate.svg</file>
+        <file>images/rotate_cam.svg</file>
+        <file>images/set_return.png</file>
+        <file>images/setting.png</file>
+        <file>images/setting2.png</file>
+        <file>images/show.png</file>
+        <file>images/Slam.png</file>
+        <file>images/speed.png</file>
+        <file>images/status.png</file>
+        <file>images/toolbar_dash.png</file>
+        <file>images/toolbar_map.png</file>
+        <file>images/toolbar_other.png</file>
+        <file>images/toolbar_settings.png</file>
+        <file>images/turnLeft_h.png</file>
+        <file>images/turnLeft_hl.png</file>
+        <file>images/turnLeft_l.png</file>
+        <file>images/turnRight_h.png</file>
+        <file>images/turnRight_hl.png</file>
+        <file>images/turnRight_l.png</file>
+        <file>images/up.png</file>
+        <file>images/up_2.png</file>
+        <file>images/up_left.png</file>
+        <file>images/up_left_2.png</file>
+        <file>images/up_right.png</file>
+        <file>images/up_right_2.png</file>
+        <file>images/visibility.svg</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>images/all_control.png</file>
     </qresource>
 </RCC>

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/imagess">
+        <file>down.png</file>
+        <file>down_left.png</file>
+        <file>down_right.png</file>
+        <file>turnLeft_h.png</file>
+        <file>turnLeft_l.png</file>
+        <file>turnRight_h.png</file>
+        <file>turnRight_l.png</file>
+        <file>up.png</file>
+        <file>up_left.png</file>
+        <file>up_right.png</file>
+        <file>left.png</file>
+        <file>right.png</file>
+    </qresource>
+</RCC>
