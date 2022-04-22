@@ -4,61 +4,48 @@
 
 车辆仪表盘，相机话题消息显示，夹爪控制界面
 
-![](resource/image/image_uwQg33gocjBx15x2kzhcY5.png)
 
+
+![图片](https://user-images.githubusercontent.com/43488697/164709467-4cc4344a-bb06-44f6-83cf-932d3c94a755.png)
 
 
 UR5控制界面
 
-![](resource/image/image_ibcK5nivvdL9GUpJWGm9JF.png)
-
+![图片](https://user-images.githubusercontent.com/43488697/164709571-f6b2df2f-7cf3-4037-8928-325747e096d4.png)
 
 
 
 
 Kinect 3d识别,键盘控制husky,命令行输入
 
-![](resource/image/image_cSuCyzvUDJG38Q3xNG1Gpk.png)
+![图片](https://user-images.githubusercontent.com/43488697/164709619-e5515847-565b-4336-9eb4-afb8dcd4acbf.png)
+![图片](https://user-images.githubusercontent.com/43488697/164709636-e63c0417-c43e-4b2b-9226-f75cac15032e.png)
 
-![](resource/image/image_6C4KGvYXaSBU4JF7VcF7BC.png)
+
 
 
 
 仿真moveit
 
-![](resource/image/image_udDutp2D6ehhPj9x3B9VMF.png)
+![图片](https://user-images.githubusercontent.com/43488697/164709661-d371a4a1-026e-4fc1-9aae-6a9eaf7ef887.png)
 
 
 
-![](resource/image/image_41MphkfmWDLB9x53viubeo.png)
+![图片](https://user-images.githubusercontent.com/43488697/164709684-65cac92d-c174-4eb1-aa07-10257528b3d5.png)
 
 
 
-建图RTAB
+建图
 
-![](resource/image/image_cBuUeBTidx9fD3vevySLrQ.png)
-
-
-
-![](resource/image/image_weNDxRv1Stdh2RZLi22LF7.png)
+![图片](https://user-images.githubusercontent.com/43488697/164709717-7387cd20-6688-423a-ba5d-badf981e466d.png)
 
 
 
-# UR5
+![图片](https://user-images.githubusercontent.com/43488697/164709790-8f318d61-1122-4887-a648-6b6ff67ec133.png)
 
-## 機械爪
 
-啓動
 
-```bash
- sudo bash
- rosrun robotiq_2f_gripper_control Robotiq2FGripperRtuNode.py /dev/ttyUSB0
 
- rosrun robotiq_2f_gripper_control Robotiq2FGripperSimpleController.py
-
-```
-
-a激活 燈變藍
 
 # QT上位机开发
 
@@ -345,6 +332,21 @@ roslaunch ur_planning ur_sc_planning.launch
 roslaunch ur_gazebo ur5_with_gripper.launch
 roslaunch ur_planning ur_with_gripper_sc_planning.launch
 ```
+# UR5
+
+## 机械爪
+
+启动
+
+```bash
+ sudo bash
+ rosrun robotiq_2f_gripper_control Robotiq2FGripperRtuNode.py /dev/ttyUSB0
+
+ rosrun robotiq_2f_gripper_control Robotiq2FGripperSimpleController.py
+
+```
+
+a激活 燈變藍
 
 ## husky+ ur+gripper
 
