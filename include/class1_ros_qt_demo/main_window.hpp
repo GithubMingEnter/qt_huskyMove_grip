@@ -125,7 +125,7 @@ private:
 
 
         mutable QMutex qdepth_mutex_;
-//        QSerialPort *myCom;
+       QSerialPort *myCom;
 
         glove glovec;
         bool ok;//judge if convert 
